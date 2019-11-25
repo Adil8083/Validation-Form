@@ -1,4 +1,4 @@
-/*function validate(){
+function validate(){
     var digit=/[0-9]/;
     var caps=/[A-Z]/;
     var small=/[a-z]/;
@@ -9,7 +9,7 @@
     var password=document.getElementById("pass").value;
     var cpas=document.getElementById("cpass").value;
 
-    /*if(digit.test(Fname))
+    if(digit.test(Fname))
     {
         document.getElementById("Lname").value="FirstName could not contain digits"
        //alert("FirstName could not contain digits");    
@@ -29,7 +29,9 @@
         alert("Last Name should end with alphabet value")
     }
 
-}*/
+}
+
+//testing
 function FNAME(){
     var digit=/[0-9]/;
     if(digit.test(Fname))
